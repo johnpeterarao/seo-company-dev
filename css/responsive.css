@@ -1,0 +1,228 @@
+@media only screen and (max-width: 1500px){
+	.home .sec-1 .hero h2, .client-directory .sec-1 .hero-text h3 { font-size: 50px!important; margin-bottom: 15px!important;}
+	.selected-company .sec-2 .main-hldr > article .top-part h3 { font-size: 40px!important;}
+	.selected-company .sec-2 .main-hldr > article > ul > li h4 { font-size: 25px!important;}
+	.home .sec-4 .hldr ul li article h4 { font-size: 60px!important; margin-bottom: 15px!important;}
+	.sec-search .hldr h3 { font-size: 40px!important; margin-bottom: 15px!important;}
+}
+
+
+@media only screen and (max-width: 1400px){
+	.nav-custom .navbar-nav li a, .log-in-hldr ul li a  { font-size: 20px!important;}
+
+	.home .sec-2 .hldr ul li .item-hldr article h4, .client-directory .sec-2 .hldr > aside .item-hldr .top-part h3 { font-size: 25px!important;}
+	.client-directory .sec-2 .hldr > aside .item-hldr .mid-part h4 { font-size: 20px!important;}
+	.client-directory .sec-2 .hldr > aside .tab .trigger h5 { font-size: 18px!important;}
+	.home .sec-1 .hero h2, .client-directory .sec-1 .hero-text h3 { font-size: 45px!important;}
+	.home .sec-1 .hero h5 {margin-bottom: 20px!important;}
+	.home .sec-4 .hldr ul li article h4 { font-size: 50px!important;}
+	.home .sec-4 .hldr ul li article h6 { font-size: 30px!important;}
+
+	.home .sec-2, .home .sec-3, .home .sec-4, .home .sec-5, footer .hldr.top-part { padding: 40px 0px!important;}
+
+}
+
+@media only screen and (max-width: 1300px){
+	.title { font-size: 30px!important;}
+	
+}
+
+
+@media only screen and (max-width: 1200px){
+	.nav-custom .navbar-nav li a, .log-in-hldr ul li a  { font-size: 18px!important;}
+	.log-in-hldr { top: 36px!important; right: 20px!important;}
+	.home .sec-1 .hero h2, .client-directory .sec-1 .hero-text h3 { font-size: 40px!important}
+	.home .sec-3 .hldr h3 {margin-bottom: 5px!important;}
+	.home .sec-1 .hero h5, .home .sec-2 .hldr .find-btn a, .home .sec-3 .hldr h5, .sec-search .hldr p, .client-directory .sec-1 .hero-text p { font-size: 20px!important;}
+	.home .sec-4 .hldr ul li article h6 { font-size: 25px!important;}
+	.home .sec-1 .hero .search-hldr input[type="submit"], .sec-search .hldr .search-hldr input[type="submit"] { height: 49px!important;}
+	.home .sec-1 .hero .search-hldr input[type="text"], .sec-search .hldr .search-hldr input[type="text"] { height: 65px!important;}
+	.nav-container, .wrapper { padding: 0px 20px!important;}
+	.home .sec-3 .hldr ul li { padding: 0px 20px!important;}
+	.home .sec-3 .hldr ul {margin: 40px -20px 0px!important;}
+	.sec-search .hldr h3 { font-size: 35px!important;}
+	.sec-search { padding: 75px 0px!important;}
+	.nav-custom .navbar-nav { padding-right: 260px!important;}
+	.client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul > li a { font-size: 16px!important; padding: 10px!important;}
+	.selected-company .sec-2 .main-hldr > article > ul > li p, .selected-company .sec-2 .main-hldr > article .top-part ul li h4, .selected-company .sec-2 .main-hldr > article .top-part ul li a, .selected-company .sec-2 .main-hldr > aside ul li .call-us span, .selected-company .sec-2 .main-hldr > aside ul li .message span, .selected-company .sec-2 .main-hldr > aside ul li .review span { font-size: 20px!important;}
+	.selected-company .sec-2 .main-hldr > article > ul > li ul li h5{ font-size: 23px!important;}
+	.selected-company .sec-2 .main-hldr > article .top-part h3 { font-size: 30px!important;}
+
+	.selected-company .sec-3 .hldr > aside { max-width: 200px!important;}
+	.selected-company .sec-3 .hldr > article { max-width: calc(100% - 200px)!important;}
+	.selected-company .sec-4 .hldr ul li h5 { font-size: 20px!important;}
+
+}
+
+
+
+@media only screen and (max-width: 999px){
+	.home .sec-2 .hldr ul li, .home .sec-3 .hldr ul li, .home .sec-5 .hldr ul li { width: 50%!important;}
+	.home .sec-3 .hldr ul li { margin-bottom: 25px!important;}
+	.home .sec-5 .hldr ul li { margin-bottom: 75px!important;}
+	.home .sec-5 .hldr ul li:last-child { margin-bottom: 0px!important;}
+	.home .sec-3 .hldr ul, .home .sec-5 .hldr ul { justify-content: center!important;}
+
+	.nav-custom .navbar-nav { padding-right: 0px!important;}
+	.navbar-header { float: none;}
+    .navbar-left,.navbar-right { float: none !important;  }
+    .navbar-toggle { display: block; float: right; background: transparent!important; border: 0px;  margin-top: 15px;     margin-right: 0px;}
+    .navbar-collapse { border-top: 0px solid transparent; box-shadow: inset 0 0px 0 rgba(255,255,255,0.1); background: #fff; position: relative; z-index: 99; padding: 0px!important;}
+    .navbar-fixed-top { top: 0; border-width: 0 0 1px; }
+    .navbar-collapse.collapse { display: none!important; }
+    .navbar-nav {float: none!important;}
+    .navbar-nav>li { float: none!important; }
+    .navbar-nav>li>a { padding-top: 10px; padding-bottom: 10px; }
+    .collapse.in{  display:block !important; }
+    .nav-custom li a { font-size: 18px!important;} 
+      
+    .nav-ul { margin-top: 53px; }
+    .navbar-brand { height: inherit; padding: 0px; }
+    .navbar-logo { margin-top: 0px!important; margin: 0 auto;}
+    .nav-custom { position: relative!important; top: 0!important; padding: 0px!important; min-height: 69px!important; background: #fff;}
+    .menu { top: 0!important;}
+    .navbar-toggle .icon-bar{ width: 35px; height: 4px;}    
+    .nav-custom .navbar-nav > li:last-child { display: block!important;}
+    .nav > li { display: block!important; }
+    .nav-custom .navbar-nav > li > a { padding:  10px 0px!important; }
+
+    .nav-logo { max-width: 265px; width: 100%; top: 18px!important;}
+    .log-in-hldr { display: none!important;}
+
+    .home .sec-1{ min-height: 450px!important;}
+    .mobile_show { display: block!important;}
+
+    .client-directory .sec-2 .hldr > aside .item-hldr .top-part .input-hldr input[type="submit"] { position: relative!important; right: 0px!important; top: 0px!important; margin-top: 10px!important;}
+    .client-directory .sec-2 .hldr > aside .item-hldr .top-part .input-hldr { text-align: right!important;}
+
+    .client-directory .sec-2 .hldr > article > ul > li .item-hldr { padding: 20px 15px!important;}
+    .client-directory .sec-2 .hldr > article > ul > li .item-hldr article { max-width: 100%!important; padding-left: 0px!important; width: 100%!important;}
+    .client-directory .sec-2 .hldr > article > ul > li .item-hldr aside { margin: 0 auto 15px!important;}
+    .client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul > li { width: 50%!important; margin: 0px!important; padding: 0px 15px!important;}
+    .client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul > li a{ width: 100%!important; text-align: center;}
+
+    .selected-company .sec-3 .hldr > aside { max-width: 100%!important; text-align: center;}
+    .selected-company .sec-3 .hldr > aside h4  br{ display: none;}
+    .selected-company .sec-3 .hldr > aside h4 { font-size: 25px!important; margin-bottom: 20px;}
+    .selected-company .sec-3 .hldr > article { max-width: 100%!important;}
+    .selected-company .sec-4 .hldr ul li { width: 50%!important;}
+    .selected-company .sec-4 .hldr ul li:last-child { width: 100%!important;}
+
+    .register .sec-1 .test-hldr .cmn_class .item-divider > ul, .register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr { width: 100%!important;}
+    .register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr { margin: 0px -15px!important;}
+    .register .sec-1 .test-hldr { min-width: auto!important; max-width: 100%!important;}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 800px){
+	.sec-search .hldr h3  { font-size: 30px!important; margin-bottom: 5px!important;}
+	.home .sec-1 .hero .search-hldr input[type="text"], .sec-search .hldr .search-hldr input[type="text"] { height: 60px!important;}
+	.home .sec-1 .hero .search-hldr input[type="submit"], .sec-search .hldr .search-hldr input[type="submit"] { height: 44px!important;}
+	.home .sec-4 .hldr ul li { width: 50%!important; margin-bottom: 25px;}
+	.home .sec-4 .hldr ul { justify-content: center!important;}
+	.home .sec-4 .hldr h3, .home .sec-2 .hldr h3 { margin-bottom:  30px!important;}
+	.nav-logo { max-width: 200px!important;}
+	.navbar-toggle {margin-top: 11px!important;}
+	.nav-custom { min-height: 57px!important;}
+	.nav-custom .navbar-nav { margin: 10px 0px!important;}
+	footer .hldr.top-part ul li { width: 50%!important; margin-bottom: 25px!important; text-align: center;}
+	footer .hldr.top-part ul { justify-content: center!important;}
+	.home .sec-1 .hero { padding: 0px 20px!important;}
+	.client-directory .sec-2 .hldr > aside .tab .panel-cs label { font-size: 16px!important;}
+	.client-directory .sec-2 .hldr > article > ul > li .item-hldr article h4 { font-size: 20px!important;}
+	.client-directory .sec-2 .hldr > aside { width: 45%!important;}
+	.page-divider > article { width: 55%!important;}
+	.client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul > li { width: 100%!important; margin-bottom: 10px!important; padding: 0px!important;}
+	.client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul > li:last-child { margin-bottom: 0px!important}
+	.selected-company .sec-2 .main-hldr > article > ul > li p { font-size: 16px!important;} 
+	.selected-company .sec-2 .main-hldr > article .star-holder { position: relative!important; right: 0!important; top: 0px!important;}
+	.selected-company .sec-2 .main-hldr > article .star-holder article { text-align: left!important;}
+	.selected-company .sec-2 .main-hldr > article > ul > li h4 { font-size: 23px!important;}
+	.selected-company .sec-2 .main-hldr > article > ul > li ul li h5 { font-size: 20px!important;}
+
+	.selected-company .sec-2 .main-hldr > aside ul li .call-us span, .selected-company .sec-2 .main-hldr > aside ul li .message span, .selected-company .sec-2 .main-hldr > aside ul li .review span { font-size: 16px!important;}
+	.selected-company .sec-2 .main-hldr > aside ul li .review, .selected-company .sec-2 .main-hldr > aside ul li .message, .selected-company .sec-2 .main-hldr > aside ul li .call-us { padding: 10px 10px!important;}
+	.selected-company .sec-2 .main-hldr > aside ul li aside span img { margin-top: 0px!important; display: block!important; margin: 0 auto 10px!important;}
+	.selected-company .sec-2 .main-hldr > article .star-holder article span { font-size: 16px!important;}
+	.selected-company .sec-2 .main-hldr > article { width: 70%!important; padding-bottom: 30px!important;}
+	.selected-company .sec-2 .main-hldr > aside { width: 30%!important; margin-top: -90px!important;}
+	.selected-company .sec-2 .main-hldr > aside ul li .profile-img { height: 210px!important;}
+	.selected-company .sec-2 .main-hldr > article .top-part ul li { width: 100%!important; padding: 0px!important; margin: 0px!important;}
+	.selected-company .sec-2 .main-hldr > article .top-part { padding-right: 0px!important;}
+	.selected-company .sec-2 .main-hldr > article .top-part ul li::after { display: none!important;}
+	.register .sec-1 .test-hldr .tab-switch li { padding: 10px 0px!important;}
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px){
+	.client-directory .sec-2 .hldr > aside { width: 100%!important; margin-bottom: 25px!important;}
+	.client-directory .sec-2 .hldr > article { width: 100%!important; padding-left: 0px!important;}
+
+	.selected-company .sec-2 .main-hldr > aside { width: 100%!important;}
+	.selected-company .sec-2 .main-hldr > aside ul li .profile-img { max-width: 230px!important; margin: 0 auto!important;}
+	.selected-company .sec-2 .main-hldr > article { width: 100%!important; padding-left: 0px!important; padding-top: 0px!important; margin-top: 30px!important;}
+	.selected-company .sec-3 .hldr > article .client-carousel .owl-nav .owl-prev, .selected-company .sec-3 .hldr > article .client-carousel .owl-nav .owl-next { height: 40px!important; width: 40px!important; background-size: 40px!important; }
+	.selected-company .sec-3 .hldr > article .client-carousel .owl-nav .owl-prev { left: 0!important;}
+	.selected-company .sec-3 .hldr > article .client-carousel .owl-nav .owl-next { right: 0!important;}
+	.selected-company .sec-3 .hldr > article { padding: 0px!important;}
+}
+
+
+
+
+@media only screen and (max-width: 550px){
+	.home .sec-2 .hldr ul li, .home .sec-3 .hldr ul li, .home .sec-4 .hldr ul li, .home .sec-5 .hldr ul li { width: 100%!important;} { width: 100%!important;}
+	.home .sec-4 .hldr ul li:last-child { margin-bottom: 0px!important;}
+	.home .sec-3 .hldr ul li .item-hldr article h4 { margin-bottom: 10px!important;}
+	.home .sec-3 .hldr ul li { margin-bottom: 35px!important;}
+	.home .sec-4 .hldr ul li article h4 { margin-bottom: 0px!important;}
+	.home .sec-4 .hldr ul li { margin-bottom: 35px!important;}
+	footer .hldr.top-part ul li { width: 100%!important;}
+	footer .hldr.top-part ul li:last-child { margin-bottom: 0px!important;}
+	.sec-search { padding: 50px 0px!important;}
+
+	.home .sec-1 .hero .search-hldr input[type="submit"], .sec-search .hldr .search-hldr input[type="submit"] { font-size: 18px!important; position: relative!important; top: 0px!important; right: 0px!important; margin-top: 10px!important; max-width: 100%!important;}
+	.home .sec-1 .hero .search-hldr input[type="text"], .sec-search .hldr .search-hldr input[type="text"] { padding-right: 15px!important;}
+	.home .sec-1 .hero .search-hldr input[type="text"]::placeholder { letter-spacing: 0px!important;}
+	.home .sec-1 .hero { position: relative!important; top: 0!important; left: 0!important;	transform: translate(0, 0)!important;}
+	.home .sec-1 { min-height: auto!important; padding: 70px 0px!important;}
+
+	.home .sec-1 .hero h2, .client-directory .sec-1 .hero-text h3 { font-size: 35px!important;}
+	.home .sec-1 .hero .search-hldr input[type="text"], .sec-search .hldr .search-hldr input[type="text"] { height: 50px!important;}
+	.sec-search .hldr .search-hldr input[type="submit"] { border: 2px solid #fff;}
+	.sec-search .hldr h3 { font-size: 25px!important;}
+
+	.selected-company .sec-2 .main-hldr > aside ul li .call-us span img, .selected-company .sec-2 .main-hldr > aside ul li .message span img, .selected-company .sec-2 .main-hldr > aside ul li .review span img { height: 33px!important;}
+	.selected-company .sec-4 .hldr ul li { width: 100%!important;}
+	.nav-logo { max-width: 170px!important;}
+
+	.register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr > ul li { width: 100%!important; margin-bottom: 15px!important;}
+	.register .sec-1 .test-hldr .tab-switch li { width: 100%!important;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
