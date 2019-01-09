@@ -112,7 +112,7 @@
     .register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr { margin: 0px -15px!important;}
     .register .sec-1 .test-hldr { min-width: auto!important; max-width: 100%!important;}
 
-
+    .request .sec-1 .hldr { max-width: 100%!important; min-width: auto!important;}
 }
 
 
@@ -176,6 +176,7 @@
 	.selected-company .sec-3 .hldr > article .client-carousel .owl-nav .owl-prev { left: 0!important;}
 	.selected-company .sec-3 .hldr > article .client-carousel .owl-nav .owl-next { right: 0!important;}
 	.selected-company .sec-3 .hldr > article { padding: 0px!important;}
+
 }
 
 
@@ -209,6 +210,13 @@
 
 	.register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr > ul li { width: 100%!important; margin-bottom: 15px!important;}
 	.register .sec-1 .test-hldr .tab-switch li { width: 100%!important;}
+
+
+	.request .sec-1 .hldr .box .main-list > li ul li { width: 100%!important; padding: 0px!important;}
+	.request .sec-1 .hldr .box .main-list > li h4 { font-size: 18px!important;}
+	.request .sec-1 .hldr .box .btn-send input[type="submit"] { width: 100%!important;}
+	.request .sec-1 .hldr .box { padding: 20px 15px!important;}
+
 }
 
 

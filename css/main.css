@@ -109,7 +109,7 @@ input, select, textarea, button {
   right: 10px;
   top: 10px; }
 
-.flex, .log-in-hldr ul, .home .sec-2 .hldr ul, .home .sec-3 .hldr ul, .home .sec-4 .hldr ul, .home .sec-5 .hldr ul, .client-directory .sec-2 .hldr, .client-directory .sec-2 .hldr > article > ul > li .item-hldr, .client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul, .selected-company .sec-2 .main-hldr, .selected-company .sec-2 .main-hldr > article .top-part ul, .selected-company .sec-3 .hldr, .selected-company .sec-4 .hldr ul, .register .sec-1 .hldr, .register .sec-1 .hldr article .form-hldr > ul, .register .sec-1 .test-hldr .tab-switch, .register .sec-1 .test-hldr .cmn_class .item-divider, .register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr > ul, .pagination ul {
+.flex, .log-in-hldr ul, .home .sec-2 .hldr ul, .home .sec-3 .hldr ul, .home .sec-4 .hldr ul, .home .sec-5 .hldr ul, .client-directory .sec-2 .hldr, .client-directory .sec-2 .hldr > article > ul > li .item-hldr, .client-directory .sec-2 .hldr > article > ul > li .item-hldr article > ul, .selected-company .sec-2 .main-hldr, .selected-company .sec-2 .main-hldr > article .top-part ul, .selected-company .sec-3 .hldr, .selected-company .sec-4 .hldr ul, .register .sec-1 .hldr, .register .sec-1 .hldr article .form-hldr > ul, .register .sec-1 .test-hldr .tab-switch, .register .sec-1 .test-hldr .cmn_class .item-divider, .register .sec-1 .test-hldr .cmn_class .item-divider .form-hldr > ul, .pagination ul, .request .sec-1 .hldr .box .main-list > li ul {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -1047,6 +1047,95 @@ footer .btm-part {
 
 .mobile_show {
   display: none !important; }
+
+.request .sec-1 {
+  padding: 40px 0px; }
+  .request .sec-1 .hldr {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    min-width: 800px; }
+    .request .sec-1 .hldr h3 {
+      margin-bottom: 10px; }
+    .request .sec-1 .hldr > h5 {
+      font-family: "montserratsemi_bold", Arial, sans-serif;
+      font-size: 20px;
+      color: #242a34;
+      text-align: center; }
+    .request .sec-1 .hldr .box {
+      padding: 20px;
+      box-shadow: 0px 0px 10px  #d5d5d5;
+      margin-top: 40px; }
+      .request .sec-1 .hldr .box .main-list > li {
+        margin-bottom: 25px; }
+        .request .sec-1 .hldr .box .main-list > li h4 {
+          font-family: "montserratsemi_bold", Arial, sans-serif;
+          font-size: 20px;
+          color: #242a34;
+          margin-bottom: 25px;
+          padding-bottom: 15px; }
+        .request .sec-1 .hldr .box .main-list > li h4::after {
+          position: absolute;
+          width: 60px;
+          height: 7px;
+          background: #35c387;
+          left: 0;
+          bottom: 0px;
+          content: ''; }
+        .request .sec-1 .hldr .box .main-list > li ul li {
+          width: 50%;
+          margin-bottom: 15px; }
+          .request .sec-1 .hldr .box .main-list > li ul li > h5 {
+            font-family: "akkuratregular", Arial, sans-serif;
+            font-size: 18px;
+            margin-bottom: 5px; }
+          .request .sec-1 .hldr .box .main-list > li ul li input[type="text"], .request .sec-1 .hldr .box .main-list > li ul li input[type="email"] {
+            height: 35px;
+            border: 1px solid #000;
+            padding-left: 15px;
+            font-family: "akkuratregular", Arial, sans-serif;
+            font-size: 18px;
+            width: 100%; }
+          .request .sec-1 .hldr .box .main-list > li ul li input[type="radio"] {
+            -webkit-appearance: radio; }
+          .request .sec-1 .hldr .box .main-list > li ul li label {
+            font-family: "akkuratregular", Arial, sans-serif;
+            font-size: 18px;
+            font-weight: normal; }
+          .request .sec-1 .hldr .box .main-list > li ul li input[type="checkbox"] {
+            -webkit-appearance: checkbox; }
+        .request .sec-1 .hldr .box .main-list > li ul li:nth-child(odd) {
+          padding-right: 15px; }
+        .request .sec-1 .hldr .box .main-list > li ul li:nth-child(even) {
+          padding-left: 15px; }
+        .request .sec-1 .hldr .box .main-list > li select {
+          height: 35px;
+          width: 100%;
+          padding-left: 15px;
+          font-family: "akkuratregular", Arial, sans-serif;
+          font-size: 18px;
+          border: 1px solid #000; }
+        .request .sec-1 .hldr .box .main-list > li textarea {
+          font-family: "akkuratregular", Arial, sans-serif;
+          padding: 15px;
+          font-size: 18px;
+          width: 100%;
+          height: 150px;
+          resize: none;
+          border: 1px solid #000; }
+      .request .sec-1 .hldr .box .main-list > li:last-child {
+        margin-bottom: 0px; }
+      .request .sec-1 .hldr .box .btn-send {
+        margin-top: 30px;
+        text-align: right; }
+        .request .sec-1 .hldr .box .btn-send input[type="submit"] {
+          font-family: "akkuratregular", Arial, sans-serif;
+          font-size: 18px;
+          padding: 10px 25px;
+          background: #35c387;
+          color: #fff;
+          text-transform: uppercase;
+          border-radius: 15px; }
 
 @keyframes move-left {
   from {
